@@ -5,4 +5,48 @@ class Note:- https://www.notion.so/HTML-Hyper-Text-Markup-Language-2603a78e0e228
 
 Web Development
 ------------------
-HTML:-
+HTML:-Hyper Text Markup Language
+----------------------------------------
+ World first Web Site:- World Wide Web (www)
+--------------------------------------------
+Tag:-  "Tags" provide web browsers with instructions about the web page, 
+such as where to display images, and how the document is structured.
+-------------------------------------------------------------------------------------------------
+ <h1> open
+ </h1> end
+----------------
+ Basic Tags Name:-
+ <h1>, <h2>,<h3> ,........<h6> //Heading Tag
+ <p> </p> // Paragraph tag
+ <a href="link"> </a> // Anchor tag //href Attributes
+ <img target="",src="" alt=""/> self closing tag
+ 
+List ordered or unordered
+ordered list:-
+-------------
+<ol>
+    <li>Learn What a Front-End Developer Does</li>
+    <li>Master the Basics – HTML, CSS, JavaScript.</li>
+    <li>Learn Advanced Tools and Frameworks.</li>
+    <li>Build a Portfolio.</li>
+    <li>Get Real-World Experience.</li>
+    <li>Prepare for Job Hunting.</li>
+    <li>Keep Learning.</li>
+</ol>
+-----------------------------------------
+unordered list:-
+------------------
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+    <li>REACT</li>
+    <li>TYPESCRIPT</li>
+    <li>TAILWIND CSS</li>
+    <li>GIT & GITHUB</li>
+</ul>
+-------------------------------------------------------------
+HTML Comment syntax
+     <!--  -->
+--------------------------------------- Thank You ----------------------------------------
+ 
