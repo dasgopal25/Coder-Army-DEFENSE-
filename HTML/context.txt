@@ -1,0 +1,8 @@
+Date: 02/sept/2025
+Day 2:- What is HTML | Heading | Paragraph | Anchor tag | Image element | List | Attributes
+
+class Note:- https://www.notion.so/HTML-Hyper-Text-Markup-Language-2603a78e0e228098958fd3cbbbb540de
+
+Web Development
+------------------
+HTML:-
