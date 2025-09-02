@@ -1,0 +1,44 @@
+Date:-01/sept/2025
+
+ Day 1:- Introduction To Web Development | Internet Working | MERN Stack | SpringBoot | System Design | AI
+
+ Class Notes:- https://www.notion.so/Web-Development-Course-25b3a78e0e2280919c1ed15f0878fa15 
+
+   Web Development
+------------------
+   Internet:- The Internet is a global network of interconnected computers that share and exchange information worldwide.
+---------------------
+  IP Address: Internet Protocol  
+------------------------------------ 
+  ISP: Internet Service Provider
+------------------------------------------
+  DNS:-Domain Name Service.
+------------------------------------------
+  MAC:Media Access Control Address(48 bit)
+-------------------------------------------------
+  port Number:-16bit unsigned (not a nagetive number);
+     //2^16-1 = 65,536;range: 0 to 65,535
+--------------------------------------------------------------
+  http: 80 / not secure
+  https: 443 /secure
+--------------------------------------------------------
+  IPv4: 32 bit / range:-0.0.0.0 to 255.255.255.255
+  2^32 =4.3 billion
+  IPv6: 128 bit / range:-0.0.0.0 to 255.255.255.255
+  2^128 = 340 undecillion
+---------------------------------------------------------
+  LAN:Local Area network .. "Computer","Switch","Router"
+  VPN: Virtual private network
+------------------------------------------------------------
+          Request                   Response
+ Client ------------>  Server --------------------> Client..
+
+  Return  : HTML,CSS,JAVASCRIPT
+--------------------------------------------------------------
+MERN STACK : Forntend(html,css,js || React.js) + Backend(Node.js,Express.js) + Database(MongoDB,SQL)
+ M:MongoDB
+ E:Express
+ R:React
+ N:Node                     
+                              Thank You
+----------------------------------------------------------------------------------------------------------
