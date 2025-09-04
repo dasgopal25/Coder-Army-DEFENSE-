@@ -1,0 +1,48 @@
+Date: 04/sept/2025
+Day 4:- File Path in HTML | HTML BoilerPlate Code | DIV + Class + ID + Header +Footer + Main in HTML
+
+code Link:- https://www.notion.so/HTML-Day04-2623a78e0e2280ceaffffd21d7c450d0
+
+Web Development
+------------------
+File Path:A file path is a text string that specifies the location of a file or folder within a computer's hierarchical file system.
+------------------------------------------------------------------
+ They are of two types : Absolute and Relative
+ ./fileName/imgName.jpg 
+ ../../
+ ../
+ /fileName
+------------------------------------------------------------------------------------
+ Boilerplate: HTML boilerplate code refers to the minimal, standard set of HTML elements and declarations required to create a valid and functional HTML page.
+------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+------------------------------------------------------------------------
+ div:- The <div> tag in HTML is a generic, block-level container element used for grouping and structuring content on a web page.
+ div=tag==container
+---------------------------------------------------------------------------------------------------------------------
+Three main parts of a web page:- 
+1.<Header> </Header>
+2.<Main> </Main>
+3.<Footer> </Footer>
+----------------------------------------------------------------------------------------------------------------------
+ ID : The id attribute specifies a unique identifier for a single HTML element within an entire document.
+ Example:<h1 id="main-title">Welcome to My Page</h1>
+------------------------------------------------------------------------------------
+CLASS:The class attribute specifies one or more class names for an HTML element.
+
+Example:
+<p class="highlighted-text">This text is important.</p>
+<span class="highlighted-text">Another important piece of text.</span> 
+
+--------------------------------------- Thank You ----------------------------------------
+ 
