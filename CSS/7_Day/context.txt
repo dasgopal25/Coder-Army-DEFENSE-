@@ -1,0 +1,69 @@
+Date: 09/sept/2025
+Day 7:- What is CSS (Cascading Style Sheet) | Inline + Internal + External CSS | Selector | Color | FONT
+
+code Link:-https://www.notion.so/CSS-Introduction-2683a78e0e2280499877dcac0df77992?source=copy_link
+
+Web Development
+------------------
+CSS:-Cascading Style Sheet
+Three type of Style:
+1.Inline
+      Ex: <h1 style="background-color:red;  height: 50px;>Coder Army</h1>
+2.Internal
+      Ex:<style>
+            h1{
+               background-color:red; 
+               height: 50px
+            }
+      </style>
+3.External
+        Ex:Creating a new file and writing code 
+             h1{
+               background-color:red; 
+               height: 50px
+            }
+------------------------------------------------------------------------------------------------------------
+Type of Selection:
+1.Tag/Element Selector
+                Ex:
+                h1{
+               background-color:red; 
+               height: 50px
+            }
+2.id(#)/class(.) Selector.
+                    Ex:
+                    #first{
+                        font-size:20px;
+                    }
+                    .second{
+                        font-width:20px;
+                    }
+3.group base Selector
+                Ex:
+                h1,#first,.second{
+                    color:blue;
+                }
+---------------------------------------------------------------------------------------------
+Color:
+1.RGB/RGBA
+        Full name: Red Green Blue / Red Green Blue Alpha
+                        Example:
+                        rgb(255,0,0) → red
+                        rgba(255,0,0,0.5) → red, 50% transparent
+2.HSL/HSLA
+            Full name: Hue Saturation Lightness / Hue Saturation Lightness Alpha
+                        Example:
+                        hsl(120,100%,50%) → green
+                        hsla(120,100%,50%,0.3) → green, 30% transparent
+3.Hex-decimal
+            Full name: Hexadecimal color code
+                        Example:
+                        #FF0000 → red
+                        #FF000080 → red, 50% transpare
+
+-------------------------------------------------------------------------------------------
+ px:- The px unit stands for pixels, which are the smallest visible units on a screen. When you use images (pictures) in websites, you define their size using pixels.
+      example: <img src="image.jpg" width="300px" height="200px" alt="Sample image">
+---------------------------------------------------------------------------------------------------
+--------------------------------------- Thank You ----------------------------------------
+ 

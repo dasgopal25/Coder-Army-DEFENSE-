@@ -1,0 +1,14 @@
+/* ID Selector */
+#first {
+    font-size: 20px;
+}
+
+/* Class Selector */
+.second {
+    font-weight: 700;
+}
+
+/* Group Selector */
+h2, #first, .second {
+    color: blue;
+}
