@@ -1,0 +1,88 @@
+Date: 10/sept/2025
+Day 8:- CSS Box Model & Display Property | Content | Margin | Padding | Border | Inline and Block Element
+
+code Link:- https://www.notion.so/Box-Model-Lecture-02-2693a78e0e228042ac64e8f3f1bfca86?source=copy_link
+
+Web Development
+------------------
+Box Model:- The CSS Box Model is a fundamental concept in CSS that describes how every
+            HTML element is rendered as a rectangular box. This box is composed of four distinct areas,
+            or layers, that contribute to the element's overall size and spacing on a webpage.
+--------------------------------------------------------------------------------------------------
+  Inline element VS Block element
+  1.inline element:-
+Inline CSS refers to the method of applying styles directly to a specific HTML element using
+the style attribute within the element's opening tag. This allows for unique styling of 
+individual elements without affecting other elements on the page or requiring external stylesheets.
+
+Do not start on a new line:
+Inline elements appear within the current line of text flow, alongside other inline content.
+
+Take up only necessary width:
+They only occupy the horizontal space required to display their content.
+
+Do not allow vertical margins and padding:
+While horizontal padding and margins are respected, vertical margins and padding on inline elements
+typically do not affect the layout of surrounding content. Their vertical spacing is primarily
+influenced by the line-height property of the containing block.
+
+Example:- <a> (anchor/link), <span>, <strong>, <em>, <img> (image), and <input>.
+----------------------------------------------------------------------------------------------------
+2.Block element: "Block elements" can refer to either the geometric symbols in Unicode or
+the categories of elements in the periodic table (s, p, d, f), or it can refer to block-level
+elements in HTML. 
+
+
+
+Start on a new line:
+Block-level elements always begin on a new line, creating a distinct "block" of content.
+
+
+Take up full width:
+They occupy the entire available width of their parent container, even if their content doesn't 
+fill that space.
+
+
+Allow vertical margins and padding:
+You can apply top and bottom margins and padding to block-level elements, which will affect their
+ spacing relative to other elements.
+
+
+Examples:
+Common block-level elements include <p> (paragraph), <div> (division), <h1> through
+<h6> (headings), <ul> (unordered list), <ol> (ordered list), and <li> (list item).
+-------------------------------------------------------------------------------------
+inline-block: Inline-block elements in CSS combine characteristics of both inline
+ and block-level elements.
+
+ 
+Flow inline:
+Like inline elements, they do not force a new line before or after them and
+ can sit alongside other inline or inline-block elements on the same line.
+
+
+Accept block-level properties:
+Unlike inline elements, they can have explicit width, height, and vertical margin and 
+padding applied to them, similar to block-level elements. Inline elements typically ignore 
+these size and vertical spacing properties.
+
+
+Content does not wrap within the element:
+The content inside an inline-block element will not automatically wrap to a new line 
+if it exceeds the specified width; instead, it will overflow or stack if necessary.
+---------------------------------------------------------------------------------------------
+i.Border/Border-redius/top,right,bottom,left
+ii.Padding.
+iii.Margin.
+iv.Box-sizing:Border-box/Box-sizing:Border-Content
+--------------------------------------------------------------------
+
+    "*" is a universal Selector in CSS
+    ----------------------------------
+Global Styling: The universal selector is frequently used for applying global
+ styles across an entire webpage. This includes resetting default browser
+  styles for properties like margin and padding, or setting a consistent box-sizing model.
+
+
+--------------------------------------- Thank You ----------------------------------------
+ 
