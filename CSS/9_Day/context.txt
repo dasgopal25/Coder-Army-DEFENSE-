@@ -1,0 +1,107 @@
+Date: 11/sept/2025
+Day 9:- Cascade & Positioning in CSS | Static | Relative | Absolute | Fixed | Sticky
+
+code Link:- https://www.notion.so/Lecture-03-Cascading-and-position-26a3a78e0e2280f8bf0bf6be564ea461?source=copy_link
+
+Web Development
+------------------
+ Cascade in CSS
+
+The term cascade in CSS refers to how the browser determines which styles to apply when multiple rules match the same element. It follows these principles:
+
+Source order – Styles declared later override earlier ones.
+
+Specificity – More specific selectors (like IDs) take priority over less specific ones (like element selectors).
+
+Importance – Rules with !important override others.
+
+Inheritance – Some CSS properties are inherited from parent elements by default (like color), while others are not.
+---------------------------------------------------------------------------------------------------------------------------------
+Positioning in CSS
+
+Positioning controls how elements are placed on the page. There are 5 main types:
+
+1. Static Positioning
+
+Default for all elements.
+
+Elements flow naturally in the page layout.
+
+top, left, right, bottom properties have no effect.
+
+Exmaple:
+div {
+  position: static;
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+
+2. Relative Positioning
+
+Positioned relative to its normal place.
+
+The space it originally occupied is preserved.
+
+Can be shifted using top, left, right, bottom.
+
+Exmaple:
+div {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+------------------------------------------------------------------------------------------------------------------------
+3. Absolute Positioning
+
+Removed from the normal flow.
+
+Positioned relative to the nearest parent with position other than static.
+
+Doesn’t affect other elements.
+
+Exmaple:
+
+div {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+-----------------------------------------------------------------------------------------------------------------------
+4. Fixed Positioning
+
+Positioned relative to the viewport (browser window).
+
+Remains fixed even when scrolling.
+
+Exmaple:
+
+div {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+-----------------------------------------------------------------------------------------------------------------------------
+5. Sticky Positioning
+
+Acts like relative until a scroll threshold is crossed, then becomes fixed.
+
+Useful for headers or menus that stick while scrolling.
+
+Example:
+
+div {
+  position: sticky;
+  top: 0;
+}
+--------------------------------------------------------------------------------------------------------------------------
+Cascading and positioning are foundational to layout design.
+
+Helps create responsive, user-friendly interfaces.
+
+Allows precise control over where and how elements appear.
+
+Essential for animations, modals, dropdowns, navigation menus, etc.
+
+
+--------------------------------------- Thank You ----------------------------------------
+ 
