@@ -1,0 +1,69 @@
+/* Sign Up */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(126, 114, 114);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(67, 67, 141);
+   
+}
+
+#container {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(185, 198, 199);
+     display: flex;
+    justify-content: center; 
+    border-radius: 15px;
+    padding: 50px;
+
+}
+
+#FirstDiv {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    font-size: large;
+    font-weight: 600;
+    width: 450px;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 30px;
+    width: 330px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(50, 50, 216);
+    color: white;
+    font-size: large;
+    justify-content: end;
+    border: none;
+    margin-left: 80px;
+}
+button:hover{
+    background-color: rgb(172, 12, 12);
+}

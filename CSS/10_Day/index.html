@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Navbar</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: #333;
+      color: #fff;
+    }
+
+    .logo { font-size: 20px; font-weight: bold; }
+
+    .menu {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    .menu li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .menu li a:hover {
+      color: #ff9800;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">MyWebsite</div>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="./login.html">Login</a></li>
+      <li><a href="./signIn.html">Sign up</a></li>
+    </ul>
+  </nav>
+
+  <section class="home">
+  <h1>Welcome to MyWebsite</h1>
+  <p>
+    This is the Home page of our website. Here you can find the latest updates, 
+    featured content, and quick links to all our services. Our goal is to 
+    provide you with an easy and smooth browsing experience.
+  </p>
+  <p>
+    Navigate through the menu above to explore About Us, Services, and Contact 
+    information. Stay connected and enjoy exploring!
+  </p>
+</section>
+</body>
+</html>
