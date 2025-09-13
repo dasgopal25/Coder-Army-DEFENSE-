@@ -5,6 +5,124 @@ code Link:- https://www.notion.so/Lecture-04-FlexBox-26b3a78e0e2280639e3cec5c308
 
 Web Development
 ------------------
+CSS Flexbox :-
+Flexbox (Flexible Box Layout) is a one-dimensional layout system in CSS. It helps arrange elements in rows 
+or columns with proper alignment, spacing, and flexibility.
+-------------------------------------------------------------------------------------------------------
+Activating Flexbox:
+To use Flexbox, apply display: flex to the parent container.
+Example:
+
+.container {
+  display: flex;
+}
+-------------------------------------------------------------------------------------
+Main Concepts:
+Main Axis: Horizontal (by default → row).
+
+Cross Axis: Perpendicular to main axis (vertical by default).
+
+Direction can change using flex-direction.
+----------------------------------------------------------------------------------------------
+Parent (Container) Properties
+
+These control how flex items are arranged inside the container.
+
+🔹 flex-direction:
+
+.container {
+  flex-direction: row;         /* default → left to right */
+  flex-direction: row-reverse; /* right to left */
+  flex-direction: column;      /* top to bottom */
+  flex-direction: column-reverse; /* bottom to top */
+}
+-----------------------------------------------------------------------------------------------------
+🔹 justify-content (aligns items on main axis)
+
+.container {
+  justify-content: flex-start;   /* default, items to left/top */
+  justify-content: flex-end;     /* items to right/bottom */
+  justify-content: center;       /* center items */
+  justify-content: space-between;/* equal space between */
+  justify-content: space-around; /* equal space around */
+  justify-content: space-evenly; /* equal space everywhere */
+}
+-----------------------------------------------------------------------------
+🔹 align-items (aligns items on cross axis)
+.container {
+  align-items: flex-start; /* top */
+  align-items: flex-end;   /* bottom */
+  align-items: center;     /* middle */
+  align-items: stretch;    /* default, fills height */
+  align-items: baseline;   /* align by text baseline */
+}
+------------------------------------------------------------------------------------------
+🔹 align-content (for multiple rows/columns)
+
+.container {
+  flex-wrap: wrap; /* must use wrap */
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: center;
+  align-content: space-between;
+  align-content: space-around;
+  align-content: space-evenly;
+}
+--------------------------------------------------------------------------------------
+🔹 flex-wrap
+
+.container {
+  flex-wrap: nowrap;   /* default, no wrapping */
+  flex-wrap: wrap;     /* wrap to next line */
+  flex-wrap: wrap-reverse; /* wrap but reverse */
+}
+----------------------------------------------------------------------------------------------
+🔹 gap:
+
+.container {
+  gap: 20px;
+}
+---------------------------------------------------------------------------------------------
+Child (Item) Properties
+
+These control how each item behaves inside the container.
+
+🔹 order:
+
+.item1 { order: 1; }
+.item2 { order: 2; }
+.item3 { order: -1; } /* negative = higher priority */
+---------------------------------------------------------------------------------------------
+🔹 flex-grow:
+
+.item1 { flex-grow: 1; }
+.item2 { flex-grow: 2; } /* grows double compared to item1 */
+----------------------------------------------------------------------------------------------------
+🔹 flex-shrink:
+
+.item1 { flex-shrink: 1; }
+.item2 { flex-shrink: 0; } /* will not shrink */
+------------------------------------------------------------------------------------------------------
+🔹 flex-basis:
+
+.item { flex-basis: 200px; }
+--------------------------------------------------------------------------------------------------------
+🔹 flex shorthand:
+
+.item {
+  flex: grow shrink basis;
+}
+/* Example */
+.item { flex: 1 1 200px; }
+---------------------------------------------------------------------------------------------------------------
+🔹 align-self:
+
+.item {
+  align-self: center;
+  align-self: flex-start;
+  align-self: flex-end;
+}
+--------------------------------------------------------------------------------------------------------------------
 
 --------------------------------------- Thank You ----------------------------------------
  
