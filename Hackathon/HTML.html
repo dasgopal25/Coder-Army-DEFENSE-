@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>DEFENSE</title>
+</head>
+
+<body style="font-weight: bold;">
+
+  <!-- Header -->
+  <div style="background-color: #cecfd4; padding: 10px;">
+    <h1 style="color: #FF9933;">
+      DE<span style="color: #ffffff;">FEN</span><span style="color: #138808;">SE</span>
+    </h1>
+    <center style="height: 60px;">
+      <nav>
+        <h2>
+          <a href="index.html">Home</a> |
+          <a href="internet.html">Internet Notes</a> |
+          <a href="project.html">Project</a>
+        </h2>
+      </nav>
+    </center>
+  </div>
+
+
+
+  <main>
+      <h1>HTML Notes</h1>
+
+    <section>
+        <h2>📘 Day 1 (Basics of HTML)</h2>
+        <p><strong>HTML →</strong> Hyper Text Markup Language</p>
+        <p><strong>World’s first website →</strong> World Wide Web (WWW)</p>
+        <p><strong>Tag Definition →</strong> <code>&lt;&gt;</code> (opening) and <code>&lt;/&gt;</code> (closing)</p>
+
+        <h3>Common Tags:</h3>
+        <ul>
+            <li><strong>Headings:</strong> <code>&lt;h1&gt; ... &lt;/h1&gt;</code> to <code>&lt;h6&gt; ... &lt;/h6&gt;</code></li>
+            <li><strong>Paragraph:</strong> <code>&lt;p&gt; ... &lt;/p&gt;</code></li>
+            <li><strong>Horizontal Line:</strong> <code>&lt;hr&gt;</code></li>
+            <li><strong>Line Break:</strong> <code>&lt;br&gt;</code></li>
+        </ul>
+
+        <h3>Anchor Tag (Hyperlink):</h3>
+        <pre><code>&lt;a href="url" target="_blank"&gt;Link&lt;/a&gt;</code></pre>
+        <ul>
+            <li><code>href</code> → link address</li>
+            <li><code>target="_blank"</code> → opens in new tab</li>
+        </ul>
+
+        <h3>Image Tag:</h3>
+        <pre><code>&lt;img src="path/image.jpg" alt="description"&gt;</code></pre>
+
+        <h3>Lists:</h3>
+        <p><strong>Ordered List:</strong></p>
+        <pre><code>&lt;ol&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+        <p><strong>Unordered List:</strong></p>
+        <pre><code>&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>📘 Day 2 (Tables & Paths)</h2>
+
+        <h3>Nesting List:</h3>
+        <p>Lists inside lists</p>
+
+        <h3>Table Creation:</h3>
+        <pre><code>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Heading&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Data&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Footer&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+
+        <h3>Table Attributes:</h3>
+        <ul>
+            <li><code>rowspan</code> → merges rows</li>
+            <li><code>colspan</code> → merges columns</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>📘 Day 3 (File Path & Structure Tags)</h2>
+
+        <h3>Types of File Paths:</h3>
+        <ol>
+            <li><strong>Relative Path:</strong> file location relative to current folder</li>
+            <li><strong>Absolute Path:</strong> full location with domain/root</li>
+        </ol>
+
+        <h3>Structure Tags:</h3>
+        <ul>
+            <li><code>&lt;div&gt;</code> → container</li>
+            <li><code>&lt;header&gt; ... &lt;/header&gt;</code> → top section</li>
+            <li><code>&lt;main&gt; ... &lt;/main&gt;</code> → main content</li>
+            <li><code>&lt;footer&gt; ... &lt;/footer&gt;</code> → bottom section</li>
+        </ul>
+
+        <h3>Attributes:</h3>
+        <ul>
+            <li><code>id</code> → unique identifier</li>
+            <li><code>class</code> → group styling</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>📘 Day 4 (Forms)</h2>
+
+        <h3>Form Example:</h3>
+        <pre><code>&lt;form&gt;
+  &lt;input type="text" name="username" placeholder="Enter name"&gt;
+  &lt;input type="radio" name="gender" value="male"&gt; Male
+  &lt;input type="radio" name="gender" value="female"&gt; Female
+  &lt;input type="checkbox" name="agree"&gt; I Agree
+  &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;</code></pre>
+
+        <h3>Types:</h3>
+        <p>text, radio, checkbox, password, submit, etc.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>📘 Day 5 (Media Tags)</h2>
+
+        <h3>Video & Audio:</h3>
+        <pre><code>&lt;video src="movie.mp4" controls&gt;&lt;/video&gt;
+&lt;audio src="song.mp3" controls&gt;&lt;/audio&gt;</code></pre>
+
+        <h3>YouTube Embed:</h3>
+        <pre><code>&lt;iframe width="560" height="315" 
+src="https://www.youtube.com/embed/videoID" 
+frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+
+        <h3>Other Tags:</h3>
+        <ul>
+            <li><code>&lt;embed&gt;</code> → embed external content</li>
+            <li><code>controls</code> → adds play/pause buttons</li>
+            <li><code>allowfullscreen</code> → allows full screen</li>
+        </ul>
+    </section>
+  </main>
+
+
+  <!-- Footer -->
+  <footer style="background-color: #222; color: white; padding: 10px;">
+    <center>
+      <p>&copy; 2023-2025 by <a href="https://www.youtube.com/@CoderArmy9" target="_blank">Coder Army</a>. All Rights
+        Reserved. DEFENSE is Powered by HTML.</p>
+    </center>
+  </footer>
+
+</body>
+
+</html>
