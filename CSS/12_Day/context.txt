@@ -1,0 +1,60 @@
+Date: 16/sept/2025
+Day 12:- Make Your Website Responsive | Media Queries, Overflow, Box Shadows explain | CSS Full course #06
+
+code Link:- https://www.notion.so/Lecture-06-Media-query-Shadows-and-Overflow-26f3a78e0e2280caa741c4e882421fee
+
+Web Development
+---------------------------
+Responsive Website:-
+A responsive website adjusts its layout and design depending on the device’s screen size. 
+It ensures that content looks good and is easy to use on desktops, tablets, and phones.
+--------------------
+HTML:content
+CSS:content arrange karte(media)
+
+if(device width >900px)
+CSS apply kar dunga.
+
+if(device<900 && 600)
+CSS apply
+
+else
+CSS apply.
+-------------------------------------------------------------------------
+@media screen and (max-width:600px){
+    .container{
+        CSS apply
+    }
+}
+------------------------------------------------------------------------
+Media Query Types:
+
+max-width (Desktop First):
+Start from larger screens and apply styles for smaller screens step by step.
+Example: @media screen and (max-width:600px){…}
+
+
+min-width (Phone First):
+Start from smaller screens and apply styles for larger screens progressively.
+Example: @media screen and (min-width:600px){…}
+-----------------------------------------------------------------------------
+BOX-Shadow:The box-shadow property is used to create shadow effects around elements.
+----------
+offset-x: Horizontal shadow distance.
+offset-y: Vertical shadow distance.
+blur-radius: How blurry the shadow is.
+spread-radius: How much the shadow spreads.
+color: The color of the shadow.
+
+
+box-shadow:10px 10px 5px 4px blue;
+
+box-shadow: offset-x offset-y blur-radius spread-radius color;
+
+-----------------------------------------------------------------------------------------
+Overflow:The overflow property controls what happens when content overflows the container's area.
+------------
+Overflow:hidden/scroll;
+-----------------------------------------------------------
+--------------------------------------- Thank You ----------------------------------------
+ 

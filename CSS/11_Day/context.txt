@@ -5,6 +5,97 @@ code Link:- https://www.notion.so/Lecture-05-Grid-26e3a78e0e2280438942f121fa3256
 
 Web Development
 ---------------------------
+Grid:
+-----
+CSS Grid Layout is a powerful layout system that allows you to create complex, responsive designs by 
+dividing the page into rows and columns.
 
+It gives you control over both dimensions (vertical and horizontal), unlike Flexbox, which works mostly in 
+one direction at a time.
+----------------------------------------------------------------------------------------------------------
+Grid Container:
+The parent element that holds the grid items. You define it by setting display: grid;.
+
+Grid Items:
+The direct children inside the grid container.
+
+Grid Lines:
+The lines that form the structure of the grid (both rows and columns).
+
+Grid Tracks:
+The spaces between the grid lines (columns or rows).
+
+Grid Areas:
+Sections of the grid layout where items are placed.
+------------------------------------------------------------------------------------------------------
+1.Basic Setup Example:
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr 2fr;
+    grid-template-rows: 100px 200px;
+    gap: 10px;
+}
+-------------------------------------------------------------------------------------
+Explanation:
+
+display: grid; → Turns the container into a grid layout.
+grid-template-columns → Defines the columns’ width.
+200px: First column fixed at 200px.
+1fr: Second column takes remaining space.
+2fr: Third column takes twice the space of the second.
+grid-template-rows → Defines rows’ height.
+gap: 10px; → Adds space between rows and columns.
+--------------------------------------------------------------------------------------
+Placing Grid Items:
+-------------------
+.item1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+grid-column: 1 / 3; → Item spans from column line 1 to 3.
+grid-row: 1 / 2; → Item spans from row line 1 to 2.
+------------------------------------------------------------------------------
+New concept:
+Grid Template Areas:
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-template-areas:
+        "header header"
+        "sidebar content";
+    gap: 10px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+The top row is a header spanning both columns.
+The second row is split into sidebar and content.
+--------------------------------------------------------------------------------------------------
+Extra :
+------
+Responsive Grid Example:
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+repeat(auto-fit, minmax(200px, 1fr)) → Automatically adjusts the number of columns to 
+fit the screen width while maintaining a minimum column width of 200px.
+-----------------------------------------------------------------------------------------------
 --------------------------------------- Thank You ----------------------------------------
  
