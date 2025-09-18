@@ -1,0 +1,95 @@
+Date: 17/sept/2025
+Day 13:- Animation in CSS from zero | CSS Full course #07
+code Link:-notion.so/Lecture-07-Animation-in-CSS-2713a78e0e2280969772f0c449468e6a?source=copy_link
+Web Development
+-----------------------------------------------------------------------------------------------------------
+Animation:
+----------
+Animations in CSS are created with the @keyframes rule + the animation properties.
+
+1. Defining Keyframes
+
+    @keyframes moveBox {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(200px);
+  }
+}
+-----------------------------------------------------------------------------------------------
+from → starting state (0px position)
+to → ending state (200px right)
+-----------------------------------------------------
+2. Applying Animation
+----------------------
+.box {
+  width: 100px;
+  height: 100px;
+  background: tomato;
+
+  /* Animation properties (all written separately) */
+  animation-name: moveBox;        /* Which keyframes to use */
+  animation-duration: 4s;         /* How long it takes */
+  animation-timing-function: linear; /* Speed curve */
+  animation-delay: 1s;            /* Wait before start */
+  animation-iteration-count: infinite; /* Loop forever */
+  animation-direction: alternate; /* Go forward + backward */
+  animation-fill-mode: forwards;  /* Keep last state */
+  animation-play-state: running;  /* running | paused */
+}
+------------------------------------------------------------------------------------
+3. Explanation of Each Property
+
+animation-name → the keyframes name (moveBox).
+animation-duration → time for one cycle (e.g., 4s).
+animation-timing-function → speed control (linear, ease, ease-in, ease-out, ease-in-out).
+animation-delay → delay before starting (2s, etc.).
+animation-iteration-count → how many times (1, 2, infinite).
+animation-direction →
+normal (default, start→end),
+reverse (end→start),
+alternate (start→end→start),
+alternate-reverse.
+animation-fill-mode → what happens before/after animation:
+none (default, no effect)
+forwards (keeps last style),
+backwards (applies first style before start),
+both (applies both).
+animation-play-state → running or paused.
+----------------------------------------------------------------------------------------------------------------------
+CSS Animation Shorthand:
+-----------------------
+animation: name duration timing-function delay iteration-count direction fill-mode play-state;
+
+Not all values are required. Only name + duration are mandatory.
+Others are optional (and follow default values if skipped).
+
+Code:
+-----
+@keyframes changeColor {
+  from { background-color: red; }
+  to   { background-color: blue; }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+
+  /* Long form */
+  /*
+  animation-name: changeColor;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  */
+
+  /* Shorthand */
+  animation: changeColor 3s ease-in-out 1s infinite alternate;
+}
+--------------------------------------------------------------------
+
+--------------------------------------- Thank You ----------------------------------------
+ 

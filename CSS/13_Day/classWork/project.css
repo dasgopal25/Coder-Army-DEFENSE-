@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#0a0a0a;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+#container{
+   background-color: #bdb2b256;
+    color: aliceblue;
+    font-size: larger;
+    width: 700px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+h1{
+    animation: moving 10s  infinite alternate;
+    white-space: nowrap;
+}
+@keyframes moving {
+    from{
+   margin-left: 400px;
+    }
+    to{
+   margin-left: -500px;
+    }
+}
