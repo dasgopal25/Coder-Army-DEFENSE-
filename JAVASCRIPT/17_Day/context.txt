@@ -1,7 +1,7 @@
-Date: 24/sept/2025
-Day 17:- 
+Date: 25/sept/2025
+Day 17:- JavaScript Variables & Data Types Explained(var, let, const, mutable) | Javascript Full Course #02
 
-code Link:- 
+code Link:- https://www.notion.so/Lecture-02-Data-Type-2773a78e0e228042ba55df0265e78c6b?source=copy_link
 
 Web Development
 ------------------
