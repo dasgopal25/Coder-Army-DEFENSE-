@@ -5,6 +5,6 @@ code Link:- https://www.notion.so/Introduction-to-Javascript-2763a78e0e22809db99
 
 Web Development
 ------------------
-
+console.log("STRIKE is Coming");
 --------------------------------------- Thank You ----------------------------------------
  
