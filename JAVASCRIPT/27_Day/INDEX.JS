@@ -13,4 +13,7 @@ arr.fillting = function (compera){
 
 let newArr =  arr.fillting((number)=>number>25);
 console.log(newArr);
+//new add
 
+const arr1 = [20,30,50]
+console.log(arr1);
