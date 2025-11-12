@@ -1,9 +1,30 @@
-Date:/oct/2025
-Day 28:- 
+Date:14/oct/2025
+Day 28:- JavaScript DOM Manipulation | The Document Object Model (DOM) Explained | Javascript Full Course #13
 
-code Link:- 
+code Link:- https://www.notion.so/Lecture-13-Introduction-to-DOM-28b3a78e0e2280be9dbbf32ae46773b6?source=copy_link
 
-Web Development
-------------------
+Web Developmen
+-------------------------------https://www.notion.so/Lecture-17-Event-Loop-in-JS-2943a78e0e22801582e6c6f4a83ecd9f?source=copy_link------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: pink;">
+     <h1 style="background-color: orange; color: brown;" id="first">Strike is Coming on 
+        <span style="display: none;">18 October</span></h1>
+     <h2 class="third" id="second">It is coming on dhanteras</h2>
+     <h2 >Hello JI</h2>
+
+
+     <ul class="third">
+        <li>Fridge</li>
+        <li>Cooler</li>
+        <li>press</li>
+     </ul>
+</body>
+</html>
 
 --------------------------------------- Thank You ----------------------------------------

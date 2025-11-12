@@ -1,0 +1,12 @@
+Date:22/oct/2025
+Day 32:- Event Loop in Javascript | Why JS is Single threaded and synchronous| Javascript Full Course #17
+
+code Link:- https://www.notion.so/Lecture-17-Event-Loop-in-JS-2943a78e0e22801582e6c6f4a83ecd9f?source=copy_link
+
+Web Development
+------------------
+
+
+
+
+--------------------------------------- Thank You ----------------------------------------
